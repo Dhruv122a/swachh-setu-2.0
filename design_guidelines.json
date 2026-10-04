@@ -1,0 +1,176 @@
+{
+  "project_name": "SWACHHSETU 2.0 — Hyperlocal Citizen Grievance Dispatcher",
+  "tagline": "Report once. Route right. Resolve faster.",
+  "theme_strategy": {
+    "default_mode": "dark",
+    "theme_archetype": "ARCHETYPE 2: THE PERFORMANCE PRO & TACTICAL CIVIC WAR ROOM",
+    "concept": "Palantir-grade Civic Command HUD meets warm, accessible citizen portal. Dark slate foundation (#0B132B / #1C2541) with high-visibility tactical status indicators (Amber #F59E0B, Emerald #10B981, Crimson #EF4444, Cyber Cyan #06B6D4). Always features 'Prototype / Mock Municipal System' banner.",
+    "toggle_supported": true
+  },
+  "typography": {
+    "font_genres": {
+      "headings": "Cabinet Grotesk / Barlow Condensed (Tight tracking, authoritative, command-center precision)",
+      "body": "Inter / DM Sans (High legibility at dense tabular data and mobile screens)",
+      "monospace_metrics": "JetBrains Mono / Source Code Pro (SLA timers, ticket IDs SWC-2026-10482, lat/long coordinates 22.7196,75.8577)"
+    },
+    "hierarchy_rules": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3_card_title": "text-xl sm:text-2xl font-semibold tracking-normal",
+      "h4_widget": "text-lg font-medium",
+      "body_regular": "text-base leading-relaxed text-slate-300",
+      "caption_mono": "text-xs font-mono uppercase tracking-widest text-slate-400"
+    },
+    "forbidden_fonts": ["Space Grotesk"]
+  },
+  "colors": {
+    "palette": {
+      "background_primary": "#070C18",
+      "background_secondary": "#0F172A",
+      "card_surface": "#1E293B",
+      "card_surface_hover": "#334155",
+      "border_subtle": "#334155",
+      "border_accent": "#06B6D4",
+      "primary_brand": "#38BDF8",
+      "primary_brand_hover": "#0284C7",
+      "status_critical": "#EF4444",
+      "status_warning": "#F59E0B",
+      "status_resolved": "#10B981",
+      "status_info": "#06B6D4",
+      "text_main": "#F8FAFC",
+      "text_muted": "#94A3B8"
+    },
+    "forbidden_colors": ["#1B93A4", "#7351B7"],
+    "contrast_rules": "All normal text must meet 4.5:1 APCA contrast ratio. Text on overlays requires subtle black gradient masks (from-black/80 via-black/40 to-transparent)."
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "Use generous 2x padding: p-6, p-8, p-12 for dashboard panels and mobile cards to avoid content density collision.",
+    "layout_modes": {
+      "desktop_command_center": "Collapsible left sidebar (w-64 expanded / w-16 collapsed), sticky top HUD header with prototype banner, fluid multi-column Bento grid for KPI widgets, GIS Map, and AI Priority Queue.",
+      "mobile_citizen": "Mobile-first full-width viewport (max-w-md mx-auto on desktop wrapper), fixed top header with back buttons, bottom tab navigation bar for quick access (Report, Track, Map, Demo)."
+    },
+    "grid_border_style": "Exposed grid skeleton with border-r border-b border-slate-800/80 and glow highlights on active state."
+  },
+  "component_guidelines": {
+    "navigation": "Top Header MUST display prominent 'Prototype / Mock Municipal System' badge in amber pill tag. Mobile bottom navigation bar for quick citizen flow.",
+    "buttons": "Pill-shaped or crisp rectangular buttons with subtle inner light border (border-white/10) and interactive transform hover (hover:-translate-y-0.5 active:translate-y-0).",
+    "cards": "Cardless or subtle 1px border cards (bg-slate-900/90 border border-slate-800 backdrop-blur-md). Avoid generic box shadows.",
+    "inputs_and_forms": "Use custom styled Shadcn primitives (Input, Select, Textarea, Dialog) with explicit dark state styling and active glowing ring (ring-2 ring-cyan-500/50).",
+    "charts": "Recharts with custom tooltips, dark slate background (#0F172A), neon color-blind friendly lines (Cyan #06B6D4, Amber #F59E0B, Emerald #10B981)."
+  },
+  "media_assets": {
+    "image_urls": {
+      "hero_city": "https://images.unsplash.com/photo-1514955180492-deb713a7e66e?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "municipal_worker_1": "https://images.pexels.com/photos/10438560/pexels-photo-10438560.jpeg?auto=compress&cs=tinysrgb&w=940",
+      "municipal_worker_2": "https://images.pexels.com/photos/37322728/pexels-photo-37322728.jpeg?auto=compress&cs=tinysrgb&w=940",
+      "pothole_issue": "https://images.unsplash.com/photo-1649825303952-84e1c9832cfd?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "waste_management": "https://images.unsplash.com/photo-1752485836509-2f4aeb8677f4?crop=entropy&cs=srgb&fm=jpg&q=85"
+    }
+  },
+  "page_specific_designs": {
+    "landing_page": {
+      "path": "/",
+      "hero_title": "Your complaint shouldn't get lost.",
+      "tagline": "Report once. Route right. Resolve faster.",
+      "cta_buttons": ["Report an Issue", "Open Command Center", "View Civic Map"],
+      "prototype_metrics": [
+        {"label": "Routing Accuracy", "value": "94%"},
+        {"label": "Faster Triage", "value": "38%"},
+        {"label": "Resolved Issues", "value": "2.4K+"}
+      ],
+      "workflow_diagram": "Animated 5-step Agentic Pipeline: Understand → Prioritize → Detect Duplicates → Route → Track"
+    },
+    "report_page": {
+      "path": "/report",
+      "format": "Mobile-first citizen report form",
+      "features": [
+        "Photo drag & drop / camera upload preview",
+        "Large Voice Mic button with 4 distinct state badges (Ready, Listening, Processing, Text Generated)",
+        "Location selector with auto-detect button set to Shivaji Nagar Indore (22.7196, 75.8577) or Demo toggle",
+        "Verification checklist & sticky submit button with data-testid='submit-grievance-btn'"
+      ]
+    },
+    "processing_page": {
+      "path": "/processing",
+      "features": [
+        "Animated pipeline steps with progress percentage ring",
+        "4 AgentActivity Cards: Triage Agent, Routing Engine, Duplicate Detector, Action/Insight Generator"
+      ]
+    },
+    "ticket_page": {
+      "path": "/ticket/:id",
+      "ticket_id_example": "SWC-2026-10482",
+      "features": ["Copy link button", "Share modal", "Download receipt badge"]
+    },
+    "track_page": {
+      "path": "/track/:id",
+      "features": [
+        "Step-by-step resolution timeline with live status pulses",
+        "SLA Countdown timer (e.g., 03h 42m remaining)",
+        "Citizen satisfaction feedback widget (Yes/No prompt)",
+        "Escalation recommendation banner if delayed"
+      ]
+    },
+    "map_page": {
+      "path": "/map",
+      "features": [
+        "Interactive SVG Municipal City Map with Wards (Ward 5, 9, 12, 17, 21, 24)",
+        "Category markers for Garbage, Pothole, Water, Streetlight, Drainage, Sewage",
+        "Filter bar & Heatmap toggle overlay mode"
+      ]
+    },
+    "command_center": {
+      "path": "/command",
+      "features": [
+        "Collapsible sidebar with quick links",
+        "KPI Cards: 128 Total, 37 Pending, 12 High Priority, 79 Resolved Today, 6 SLA Breaches",
+        "Split View: Interactive SVG Ward Map + AI Priority Queue Table with search & category filters",
+        "Mobile responsive card view for quick actions"
+      ]
+    },
+    "complaint_detail": {
+      "path": "/complaints/:id",
+      "features": [
+        "Original photo preview & geolocation pill",
+        "AI Priority Scoring breakdown (Severity, Traffic impact, Public health risk)",
+        "Duplicate detection matching cards",
+        "Human Override side-by-side comparison: AI Recommendation vs Officer Decision",
+        "Immutable Audit Trail log"
+      ]
+    },
+    "hotspots_page": {
+      "path": "/hotspots",
+      "features": [
+        "Recharts visualizations: Grievances by Category, Ward Distribution, Daily Volume, Resolution SLA Times",
+        "AI Resource Allocation Recommendation Card with 89% confidence rating"
+      ]
+    },
+    "escalations_page": {
+      "path": "/escalations",
+      "features": [
+        "SLA Breached complaints queue",
+        "Animated Escalation Hierarchy: Ward Team → Sanitation Supervisor → Ward Officer → Command Center",
+        "Interactive 'Simulate Escalation' button with live audit trigger"
+      ]
+    },
+    "demo_mode": {
+      "path": "/demo",
+      "features": [
+        "14-Step Guided Scenario Controller (Play / Pause / Next / Reset)",
+        "Automated timer execution (60s–90s total story flow)"
+      ]
+    }
+  },
+  "testing_and_accessibility": {
+    "data_testid_convention": "All interactive elements, buttons, inputs, tabs, modal triggers, KPI numbers, and navigation items MUST have data-testid in kebab-case format (e.g., data-testid='report-issue-btn', data-testid='kpi-total-complaints', data-testid='sidebar-toggle').",
+    "prototype_badge_rule": "The header/banner must explicitly state 'Prototype / Mock Municipal System' across all pages."
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Always display 'Prototype / Mock Municipal System' banner/badge prominently.",
+    "Ensure every interactive component has a data-testid attribute in kebab-case.",
+    "Do not use transparent background on dropdowns, headers, or overlays — use backdrop-blur with minimum 70% opacity bg fill.",
+    "Avoid using Space Grotesk font, #1B93A4, or #7351B7.",
+    "Ensure smooth transition animations for pipeline steps, tabs, and collapsible sidebars without universal transition: all.",
+    "Include responsive layouts for both desktop war-room dashboard and mobile-first citizen views."
+  ]
+}

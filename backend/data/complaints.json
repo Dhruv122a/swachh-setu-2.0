@@ -1,0 +1,3014 @@
+{
+  "generatedAt": "2026-10-04T08:06:36.056889+00:00",
+  "complaints": [
+    {
+      "ticketId": "SWC-2026-10321",
+      "category": "garbage",
+      "categoryLabel": "Garbage Overflow",
+      "description": "Garbage dump not cleared for a week near the market, overflowing onto the main road with foul smell.",
+      "severity": "high",
+      "priority": 85,
+      "priorityClass": "P1",
+      "confidence": 0.94,
+      "ward": 17,
+      "wardName": "Shivaji Nagar",
+      "location": "Bombay Bazaar Road, near Ward 17 office",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Solid Waste Management",
+      "team": "Ward 17 Sanitation Team",
+      "status": "IN_PROGRESS",
+      "latitude": 22.7225,
+      "longitude": 75.8545,
+      "createdAt": "2026-10-04T01:06:36.056889+00:00",
+      "slaDueAt": "2026-10-04T05:06:36.056889+00:00",
+      "slaHours": 4,
+      "resolvedAt": null,
+      "image": "/images/garbage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #4390B",
+      "ai": {
+        "triage": {
+          "category": "garbage",
+          "categoryLabel": "Garbage Overflow",
+          "severity": "high",
+          "priority": 85,
+          "confidence": 0.94,
+          "reason": "Visible waste accumulation + prolonged duration + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 30
+            },
+            {
+              "label": "Severity",
+              "points": 25
+            },
+            {
+              "label": "Duration",
+              "points": 20
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T01:07:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Solid Waste Management",
+          "team": "Ward 17 Sanitation Team",
+          "priorityClass": "P1",
+          "slaHours": 4,
+          "confidence": 0.96,
+          "escalationChain": [
+            "Ward Team",
+            "Sanitation Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Solid Waste Management was selected because the detected issue involves accumulated municipal waste in a public area.",
+          "timestamp": "2026-10-04T01:07:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T01:07:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 1,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T01:06:36.056889+00:00",
+          "actor": "Citizen #4390B",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T01:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Garbage Overflow · Priority 85 (HIGH)"
+        },
+        {
+          "time": "2026-10-04T01:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T01:07:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Solid Waste Management → Ward 17 Sanitation Team"
+        },
+        {
+          "time": "2026-10-04T01:08:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 17 Sanitation Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-04T03:54:36.056889+00:00",
+          "actor": "Ward 17 Sanitation Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        },
+        {
+          "time": "2026-10-04T06:00:36.056889+00:00",
+          "actor": "Ward 17 Sanitation Team",
+          "type": "officer",
+          "message": "Status → IN PROGRESS"
+        },
+        {
+          "time": "2026-10-04T07:36:36.056889+00:00",
+          "actor": "Action Agent",
+          "type": "ai",
+          "message": "SLA breached · Escalated to Sanitation Supervisor"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10391",
+      "category": "garbage",
+      "categoryLabel": "Garbage Overflow",
+      "description": "Garbage bins overflowing near the park gate for two days, stray dogs spreading waste on the footpath.",
+      "severity": "high",
+      "priority": 83,
+      "priorityClass": "P2",
+      "confidence": 0.94,
+      "ward": 17,
+      "wardName": "Shivaji Nagar",
+      "location": "Shivaji Nagar Community Park, Gate 2",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Solid Waste Management",
+      "team": "Ward 17 Sanitation Team",
+      "status": "ASSIGNED",
+      "latitude": 22.7199,
+      "longitude": 75.8577,
+      "createdAt": "2026-10-04T04:46:36.056889+00:00",
+      "slaDueAt": "2026-10-04T16:46:36.056889+00:00",
+      "slaHours": 12,
+      "resolvedAt": null,
+      "image": "/images/garbage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #AD1E1",
+      "ai": {
+        "triage": {
+          "category": "garbage",
+          "categoryLabel": "Garbage Overflow",
+          "severity": "high",
+          "priority": 83,
+          "confidence": 0.94,
+          "reason": "Visible waste accumulation + public location + 2 nearby reports.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 30
+            },
+            {
+              "label": "Severity",
+              "points": 25
+            },
+            {
+              "label": "Duration",
+              "points": 12
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 6
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T04:47:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Solid Waste Management",
+          "team": "Ward 17 Sanitation Team",
+          "priorityClass": "P2",
+          "slaHours": 12,
+          "confidence": 0.96,
+          "escalationChain": [
+            "Ward Team",
+            "Sanitation Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Solid Waste Management was selected because the detected issue involves accumulated municipal waste in a public area.",
+          "timestamp": "2026-10-04T04:47:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 2,
+          "similarity": 81,
+          "nearestDistance": 112,
+          "matches": [
+            {
+              "ticketId": "SWC-2026-10397",
+              "distance": 112,
+              "similarity": 81
+            },
+            {
+              "ticketId": "SWC-2026-10402",
+              "distance": 123,
+              "similarity": 79
+            }
+          ],
+          "recommendation": "Group as one civic incident while preserving individual citizen reports.",
+          "timestamp": "2026-10-04T04:47:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T04:46:36.056889+00:00",
+          "actor": "Citizen #AD1E1",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T04:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Garbage Overflow · Priority 83 (HIGH)"
+        },
+        {
+          "time": "2026-10-04T04:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 2 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T04:47:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Solid Waste Management → Ward 17 Sanitation Team"
+        },
+        {
+          "time": "2026-10-04T04:48:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 17 Sanitation Team · Status → ASSIGNED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10397",
+      "category": "garbage",
+      "categoryLabel": "Garbage Overflow",
+      "description": "Waste bin overflowing near the community hall, plastic waste blocking the footpath.",
+      "severity": "high",
+      "priority": 75,
+      "priorityClass": "P2",
+      "confidence": 0.94,
+      "ward": 17,
+      "wardName": "Shivaji Nagar",
+      "location": "Shivaji Nagar Main Road, opp. Community Hall",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Solid Waste Management",
+      "team": "Ward 17 Sanitation Team",
+      "status": "INSPECTION_SCHEDULED",
+      "latitude": 22.719,
+      "longitude": 75.8582,
+      "createdAt": "2026-10-04T05:36:36.056889+00:00",
+      "slaDueAt": "2026-10-04T17:36:36.056889+00:00",
+      "slaHours": 12,
+      "resolvedAt": null,
+      "image": "/images/garbage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #B2E71",
+      "ai": {
+        "triage": {
+          "category": "garbage",
+          "categoryLabel": "Garbage Overflow",
+          "severity": "high",
+          "priority": 75,
+          "confidence": 0.94,
+          "reason": "Visible waste accumulation + 2 nearby reports.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 30
+            },
+            {
+              "label": "Severity",
+              "points": 25
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 8
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 6
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T05:37:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Solid Waste Management",
+          "team": "Ward 17 Sanitation Team",
+          "priorityClass": "P2",
+          "slaHours": 12,
+          "confidence": 0.96,
+          "escalationChain": [
+            "Ward Team",
+            "Sanitation Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Solid Waste Management was selected because the detected issue involves accumulated municipal waste in a public area.",
+          "timestamp": "2026-10-04T05:37:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 2,
+          "similarity": 81,
+          "nearestDistance": 112,
+          "matches": [
+            {
+              "ticketId": "SWC-2026-10391",
+              "distance": 112,
+              "similarity": 81
+            },
+            {
+              "ticketId": "SWC-2026-10402",
+              "distance": 235,
+              "similarity": 63
+            }
+          ],
+          "recommendation": "Group as one civic incident while preserving individual citizen reports.",
+          "timestamp": "2026-10-04T05:37:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T05:36:36.056889+00:00",
+          "actor": "Citizen #B2E71",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T05:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Garbage Overflow · Priority 75 (HIGH)"
+        },
+        {
+          "time": "2026-10-04T05:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 2 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T05:37:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Solid Waste Management → Ward 17 Sanitation Team"
+        },
+        {
+          "time": "2026-10-04T05:38:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 17 Sanitation Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-04T06:36:36.056889+00:00",
+          "actor": "Ward 17 Sanitation Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10402",
+      "category": "garbage",
+      "categoryLabel": "Garbage Overflow",
+      "description": "Household garbage dumped in the open lane near the park for three days, not collected by the door-to-door vehicle.",
+      "severity": "high",
+      "priority": 84,
+      "priorityClass": "P2",
+      "confidence": 0.94,
+      "ward": 17,
+      "wardName": "Shivaji Nagar",
+      "location": "Lane 4, Shivaji Nagar",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Solid Waste Management",
+      "team": "Ward 17 Sanitation Team",
+      "status": "SUBMITTED",
+      "latitude": 22.7208,
+      "longitude": 75.857,
+      "createdAt": "2026-10-04T06:36:36.056889+00:00",
+      "slaDueAt": "2026-10-04T18:36:36.056889+00:00",
+      "slaHours": 12,
+      "resolvedAt": null,
+      "image": "/images/garbage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #71591",
+      "ai": {
+        "triage": {
+          "category": "garbage",
+          "categoryLabel": "Garbage Overflow",
+          "severity": "high",
+          "priority": 84,
+          "confidence": 0.94,
+          "reason": "Visible waste accumulation + prolonged duration + public location + 2 nearby reports.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 30
+            },
+            {
+              "label": "Severity",
+              "points": 18
+            },
+            {
+              "label": "Duration",
+              "points": 20
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 6
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T06:37:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Solid Waste Management",
+          "team": "Ward 17 Sanitation Team",
+          "priorityClass": "P2",
+          "slaHours": 12,
+          "confidence": 0.96,
+          "escalationChain": [
+            "Ward Team",
+            "Sanitation Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Solid Waste Management was selected because the detected issue involves accumulated municipal waste in a public area.",
+          "timestamp": "2026-10-04T06:37:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 2,
+          "similarity": 79,
+          "nearestDistance": 123,
+          "matches": [
+            {
+              "ticketId": "SWC-2026-10391",
+              "distance": 123,
+              "similarity": 79
+            },
+            {
+              "ticketId": "SWC-2026-10397",
+              "distance": 235,
+              "similarity": 63
+            }
+          ],
+          "recommendation": "Group as one civic incident while preserving individual citizen reports.",
+          "timestamp": "2026-10-04T06:37:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T06:36:36.056889+00:00",
+          "actor": "Citizen #71591",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T06:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Garbage Overflow · Priority 84 (HIGH)"
+        },
+        {
+          "time": "2026-10-04T06:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 2 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T06:37:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Solid Waste Management → Ward 17 Sanitation Team"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10335",
+      "category": "water",
+      "categoryLabel": "Water Leakage",
+      "description": "Water pipeline leakage on the main road, clean water wasting since morning and road getting slippery.",
+      "severity": "medium",
+      "priority": 61,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 12,
+      "wardName": "Sudama Nagar",
+      "location": "Sudama Nagar Sector D, near water tank",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Water Supply Department",
+      "team": "Ward 12 Water Works Team",
+      "status": "IN_PROGRESS",
+      "latitude": 22.6995,
+      "longitude": 75.8345,
+      "createdAt": "2026-10-04T04:46:36.056889+00:00",
+      "slaDueAt": "2026-10-06T04:46:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/water.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #06DF1",
+      "ai": {
+        "triage": {
+          "category": "water",
+          "categoryLabel": "Water Leakage",
+          "severity": "medium",
+          "priority": 61,
+          "confidence": 0.94,
+          "reason": "Visible water discharge + public location + 1 nearby reports.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 22
+            },
+            {
+              "label": "Severity",
+              "points": 20
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 3
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T04:47:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Water Supply Department",
+          "team": "Ward 12 Water Works Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.95,
+          "escalationChain": [
+            "Ward Team",
+            "Water Works Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Water Supply Department was selected because the detected issue involves leakage from the municipal water supply network.",
+          "timestamp": "2026-10-04T04:47:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 1,
+          "similarity": 65,
+          "nearestDistance": 227,
+          "matches": [
+            {
+              "ticketId": "SWC-2026-10344",
+              "distance": 227,
+              "similarity": 65
+            }
+          ],
+          "recommendation": "Group as one civic incident while preserving individual citizen reports.",
+          "timestamp": "2026-10-04T04:47:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T04:46:36.056889+00:00",
+          "actor": "Citizen #06DF1",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T04:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Water Leakage · Priority 61 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-04T04:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 1 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T04:47:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Water Supply Department → Ward 12 Water Works Team"
+        },
+        {
+          "time": "2026-10-04T04:48:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 12 Water Works Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-04T06:06:36.056889+00:00",
+          "actor": "Ward 12 Water Works Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        },
+        {
+          "time": "2026-10-04T07:06:36.056889+00:00",
+          "actor": "Ward 12 Water Works Team",
+          "type": "officer",
+          "message": "Status → IN PROGRESS"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10344",
+      "category": "water",
+      "categoryLabel": "Water Leakage",
+      "description": "Pipe burst near the school gate, water flooding the road and supply disrupted for nearby houses.",
+      "severity": "medium",
+      "priority": 68,
+      "priorityClass": "P2",
+      "confidence": 0.94,
+      "ward": 12,
+      "wardName": "Sudama Nagar",
+      "location": "Sudama Nagar Gate No. 3",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Water Supply Department",
+      "team": "Ward 12 Water Works Team",
+      "status": "ASSIGNED",
+      "latitude": 22.6982,
+      "longitude": 75.8362,
+      "createdAt": "2026-10-03T20:36:36.056889+00:00",
+      "slaDueAt": "2026-10-04T08:36:36.056889+00:00",
+      "slaHours": 12,
+      "resolvedAt": null,
+      "image": "/images/water.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #939A6",
+      "ai": {
+        "triage": {
+          "category": "water",
+          "categoryLabel": "Water Leakage",
+          "severity": "medium",
+          "priority": 68,
+          "confidence": 0.94,
+          "reason": "Visible water discharge + public location + 1 nearby reports.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 22
+            },
+            {
+              "label": "Severity",
+              "points": 27
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 3
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-03T20:37:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Water Supply Department",
+          "team": "Ward 12 Water Works Team",
+          "priorityClass": "P2",
+          "slaHours": 12,
+          "confidence": 0.95,
+          "escalationChain": [
+            "Ward Team",
+            "Water Works Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Water Supply Department was selected because the detected issue involves leakage from the municipal water supply network.",
+          "timestamp": "2026-10-03T20:37:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 1,
+          "similarity": 65,
+          "nearestDistance": 227,
+          "matches": [
+            {
+              "ticketId": "SWC-2026-10335",
+              "distance": 227,
+              "similarity": 65
+            }
+          ],
+          "recommendation": "Group as one civic incident while preserving individual citizen reports.",
+          "timestamp": "2026-10-03T20:37:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-03T20:36:36.056889+00:00",
+          "actor": "Citizen #939A6",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-03T20:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Water Leakage · Priority 68 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-03T20:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 1 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-03T20:37:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Water Supply Department → Ward 12 Water Works Team"
+        },
+        {
+          "time": "2026-10-03T20:38:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 12 Water Works Team · Status → ASSIGNED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10352",
+      "category": "streetlight",
+      "categoryLabel": "Streetlight Outage",
+      "description": "Three streetlights not working near the bus stop for two days, area completely dark at night.",
+      "severity": "medium",
+      "priority": 50,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 9,
+      "wardName": "Vijay Nagar",
+      "location": "Vijay Nagar Square, Scheme 54",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Electrical & Street Lighting",
+      "team": "Ward 9 Electrical Team",
+      "status": "ASSIGNED",
+      "latitude": 22.754,
+      "longitude": 75.8925,
+      "createdAt": "2026-10-03T23:46:36.056889+00:00",
+      "slaDueAt": "2026-10-05T23:46:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/streetlight.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #82D2C",
+      "ai": {
+        "triage": {
+          "category": "streetlight",
+          "categoryLabel": "Streetlight Outage",
+          "severity": "medium",
+          "priority": 50,
+          "confidence": 0.94,
+          "reason": "Non-functional lighting fixture + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 14
+            },
+            {
+              "label": "Severity",
+              "points": 15
+            },
+            {
+              "label": "Duration",
+              "points": 12
+            },
+            {
+              "label": "Location density",
+              "points": 9
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-03T23:47:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Electrical & Street Lighting",
+          "team": "Ward 9 Electrical Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.97,
+          "escalationChain": [
+            "Ward Team",
+            "Electrical Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Electrical & Street Lighting was selected because the detected issue involves a non-functional municipal street light.",
+          "timestamp": "2026-10-03T23:47:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-03T23:47:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-03T23:46:36.056889+00:00",
+          "actor": "Citizen #82D2C",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-03T23:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Streetlight Outage · Priority 50 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-03T23:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-03T23:47:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Electrical & Street Lighting → Ward 9 Electrical Team"
+        },
+        {
+          "time": "2026-10-03T23:48:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 9 Electrical Team · Status → ASSIGNED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10358",
+      "category": "streetlight",
+      "categoryLabel": "Streetlight Outage",
+      "description": "Street light pole flickering and dark stretch near the park, unsafe for women walking at night.",
+      "severity": "medium",
+      "priority": 51,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 9,
+      "wardName": "Vijay Nagar",
+      "location": "Scheme 74, Sector C",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Electrical & Street Lighting",
+      "team": "Ward 9 Electrical Team",
+      "status": "SUBMITTED",
+      "latitude": 22.7525,
+      "longitude": 75.895,
+      "createdAt": "2026-10-04T07:06:36.056889+00:00",
+      "slaDueAt": "2026-10-06T07:06:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/streetlight.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #A1D10",
+      "ai": {
+        "triage": {
+          "category": "streetlight",
+          "categoryLabel": "Streetlight Outage",
+          "severity": "medium",
+          "priority": 51,
+          "confidence": 0.94,
+          "reason": "Non-functional lighting fixture + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 14
+            },
+            {
+              "label": "Severity",
+              "points": 22
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 9
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T07:07:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Electrical & Street Lighting",
+          "team": "Ward 9 Electrical Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.97,
+          "escalationChain": [
+            "Ward Team",
+            "Electrical Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Electrical & Street Lighting was selected because the detected issue involves a non-functional municipal street light.",
+          "timestamp": "2026-10-04T07:07:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T07:07:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T07:06:36.056889+00:00",
+          "actor": "Citizen #A1D10",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T07:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Streetlight Outage · Priority 51 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-04T07:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T07:07:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Electrical & Street Lighting → Ward 9 Electrical Team"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10366",
+      "category": "drainage",
+      "categoryLabel": "Open / Clogged Drain",
+      "description": "Open drain clogged with plastic, stagnant water and mosquitoes near the main road for a week.",
+      "severity": "medium",
+      "priority": 71,
+      "priorityClass": "P2",
+      "confidence": 0.94,
+      "ward": 9,
+      "wardName": "Vijay Nagar",
+      "location": "Vijay Nagar, C21 Mall service road",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Storm Water Drainage",
+      "team": "Ward 9 Drainage Team",
+      "status": "INSPECTION_SCHEDULED",
+      "latitude": 22.7548,
+      "longitude": 75.8941,
+      "createdAt": "2026-10-03T19:06:36.056889+00:00",
+      "slaDueAt": "2026-10-04T07:06:36.056889+00:00",
+      "slaHours": 12,
+      "resolvedAt": null,
+      "image": "/images/drainage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #A430C",
+      "ai": {
+        "triage": {
+          "category": "drainage",
+          "categoryLabel": "Open / Clogged Drain",
+          "severity": "medium",
+          "priority": 71,
+          "confidence": 0.94,
+          "reason": "Visible drain blockage + prolonged duration + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 24
+            },
+            {
+              "label": "Severity",
+              "points": 18
+            },
+            {
+              "label": "Duration",
+              "points": 20
+            },
+            {
+              "label": "Location density",
+              "points": 9
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-03T19:07:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Storm Water Drainage",
+          "team": "Ward 9 Drainage Team",
+          "priorityClass": "P2",
+          "slaHours": 12,
+          "confidence": 0.9,
+          "escalationChain": [
+            "Ward Team",
+            "Drainage Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Storm Water Drainage was selected because the detected issue involves a blocked or open storm water drain.",
+          "timestamp": "2026-10-03T19:07:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-03T19:07:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-03T19:06:36.056889+00:00",
+          "actor": "Citizen #A430C",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-03T19:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Open / Clogged Drain · Priority 71 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-03T19:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-03T19:07:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Storm Water Drainage → Ward 9 Drainage Team"
+        },
+        {
+          "time": "2026-10-03T19:08:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 9 Drainage Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-04T00:18:36.056889+00:00",
+          "actor": "Ward 9 Drainage Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10371",
+      "category": "pothole",
+      "categoryLabel": "Pothole",
+      "description": "Deep pothole in the middle of AB Road near Palasia Square, two-wheelers skidding, accident risk.",
+      "severity": "medium",
+      "priority": 64,
+      "priorityClass": "P3",
+      "confidence": 0.88,
+      "ward": 5,
+      "wardName": "Palasia",
+      "location": "Palasia Square, AB Road",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Public Works — Roads",
+      "team": "Ward 5 Road Maintenance Crew",
+      "status": "IN_PROGRESS",
+      "latitude": 22.7245,
+      "longitude": 75.8822,
+      "createdAt": "2026-10-04T05:36:36.056889+00:00",
+      "slaDueAt": "2026-10-06T05:36:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/pothole.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #F0321",
+      "ai": {
+        "triage": {
+          "category": "pothole",
+          "categoryLabel": "Pothole",
+          "severity": "medium",
+          "priority": 64,
+          "confidence": 0.88,
+          "reason": "Visible road surface damage + public location + 1 nearby reports.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 18
+            },
+            {
+              "label": "Severity",
+              "points": 27
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 3
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T05:37:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Public Works — Roads",
+          "team": "Ward 5 Road Maintenance Crew",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.93,
+          "escalationChain": [
+            "Ward Team",
+            "Roads Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Public Works — Roads was selected because the detected issue involves damage to a municipal road surface.",
+          "timestamp": "2026-10-04T05:37:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 1,
+          "similarity": 57,
+          "nearestDistance": 277,
+          "matches": [
+            {
+              "ticketId": "SWC-2026-10377",
+              "distance": 277,
+              "similarity": 57
+            }
+          ],
+          "recommendation": "Group as one civic incident while preserving individual citizen reports.",
+          "timestamp": "2026-10-04T05:37:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T05:36:36.056889+00:00",
+          "actor": "Citizen #F0321",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T05:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Pothole · Priority 64 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-04T05:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 1 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T05:37:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Public Works — Roads → Ward 5 Road Maintenance Crew"
+        },
+        {
+          "time": "2026-10-04T05:38:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 5 Road Maintenance Crew · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-04T06:36:36.056889+00:00",
+          "actor": "Ward 5 Road Maintenance Crew",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        },
+        {
+          "time": "2026-10-04T07:21:36.056889+00:00",
+          "actor": "Ward 5 Road Maintenance Crew",
+          "type": "officer",
+          "message": "Status → IN PROGRESS"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10377",
+      "category": "pothole",
+      "categoryLabel": "Pothole",
+      "description": "Road broken with multiple potholes after rain, damaged road near the hospital entrance.",
+      "severity": "medium",
+      "priority": 57,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 5,
+      "wardName": "Palasia",
+      "location": "Old Palasia, near Geeta Bhawan",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Public Works — Roads",
+      "team": "Ward 5 Road Maintenance Crew",
+      "status": "ASSIGNED",
+      "latitude": 22.7232,
+      "longitude": 75.8845,
+      "createdAt": "2026-10-03T20:26:36.056889+00:00",
+      "slaDueAt": "2026-10-05T20:26:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/pothole.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #2D45D",
+      "ai": {
+        "triage": {
+          "category": "pothole",
+          "categoryLabel": "Pothole",
+          "severity": "medium",
+          "priority": 57,
+          "confidence": 0.94,
+          "reason": "Visible road surface damage + public location + 1 nearby reports.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 18
+            },
+            {
+              "label": "Severity",
+              "points": 20
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 3
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-03T20:27:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Public Works — Roads",
+          "team": "Ward 5 Road Maintenance Crew",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.93,
+          "escalationChain": [
+            "Ward Team",
+            "Roads Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Public Works — Roads was selected because the detected issue involves damage to a municipal road surface.",
+          "timestamp": "2026-10-03T20:27:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 1,
+          "similarity": 57,
+          "nearestDistance": 277,
+          "matches": [
+            {
+              "ticketId": "SWC-2026-10371",
+              "distance": 277,
+              "similarity": 57
+            }
+          ],
+          "recommendation": "Group as one civic incident while preserving individual citizen reports.",
+          "timestamp": "2026-10-03T20:27:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-03T20:26:36.056889+00:00",
+          "actor": "Citizen #2D45D",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-03T20:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Pothole · Priority 57 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-03T20:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 1 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-03T20:27:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Public Works — Roads → Ward 5 Road Maintenance Crew"
+        },
+        {
+          "time": "2026-10-03T20:28:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 5 Road Maintenance Crew · Status → ASSIGNED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10383",
+      "category": "sewage",
+      "categoryLabel": "Sewage Overflow",
+      "description": "Sewage overflowing from manhole near the college for three days, foul smell and dirty water on the road.",
+      "severity": "high",
+      "priority": 89,
+      "priorityClass": "P1",
+      "confidence": 0.94,
+      "ward": 21,
+      "wardName": "Bhawarkuan",
+      "location": "Bhawarkuan Square, near Holkar College",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Sewerage & Sanitation",
+      "team": "Ward 21 Sewer Line Team",
+      "status": "IN_PROGRESS",
+      "latitude": 22.6935,
+      "longitude": 75.8672,
+      "createdAt": "2026-10-04T02:26:36.056889+00:00",
+      "slaDueAt": "2026-10-04T06:26:36.056889+00:00",
+      "slaHours": 4,
+      "resolvedAt": null,
+      "image": "/images/sewage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #90946",
+      "ai": {
+        "triage": {
+          "category": "sewage",
+          "categoryLabel": "Sewage Overflow",
+          "severity": "high",
+          "priority": 89,
+          "confidence": 0.94,
+          "reason": "Visible wastewater overflow + prolonged duration + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 30
+            },
+            {
+              "label": "Severity",
+              "points": 29
+            },
+            {
+              "label": "Duration",
+              "points": 20
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T02:27:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Sewerage & Sanitation",
+          "team": "Ward 21 Sewer Line Team",
+          "priorityClass": "P1",
+          "slaHours": 4,
+          "confidence": 0.92,
+          "escalationChain": [
+            "Ward Team",
+            "Sewerage Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Sewerage & Sanitation was selected because the detected issue involves overflow from the underground sewer network.",
+          "timestamp": "2026-10-04T02:27:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T02:27:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T02:26:36.056889+00:00",
+          "actor": "Citizen #90946",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T02:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Sewage Overflow · Priority 89 (HIGH)"
+        },
+        {
+          "time": "2026-10-04T02:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T02:27:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Sewerage & Sanitation → Ward 21 Sewer Line Team"
+        },
+        {
+          "time": "2026-10-04T02:28:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 21 Sewer Line Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-04T04:42:36.056889+00:00",
+          "actor": "Ward 21 Sewer Line Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        },
+        {
+          "time": "2026-10-04T06:24:36.056889+00:00",
+          "actor": "Ward 21 Sewer Line Team",
+          "type": "officer",
+          "message": "Status → IN PROGRESS"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10388",
+      "category": "sewage",
+      "categoryLabel": "Sewage Overflow",
+      "description": "Sewer line choked, gutter water overflowing near the temple road, devotees facing difficulty.",
+      "severity": "high",
+      "priority": 75,
+      "priorityClass": "P2",
+      "confidence": 0.94,
+      "ward": 24,
+      "wardName": "Khajrana",
+      "location": "Khajrana Ganesh Mandir Road",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Sewerage & Sanitation",
+      "team": "Ward 24 Sewer Line Team",
+      "status": "ASSIGNED",
+      "latitude": 22.7345,
+      "longitude": 75.9042,
+      "createdAt": "2026-10-04T06:36:36.056889+00:00",
+      "slaDueAt": "2026-10-04T18:36:36.056889+00:00",
+      "slaHours": 12,
+      "resolvedAt": null,
+      "image": "/images/sewage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #D711C",
+      "ai": {
+        "triage": {
+          "category": "sewage",
+          "categoryLabel": "Sewage Overflow",
+          "severity": "high",
+          "priority": 75,
+          "confidence": 0.94,
+          "reason": "Visible wastewater overflow + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 30
+            },
+            {
+              "label": "Severity",
+              "points": 29
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T06:37:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Sewerage & Sanitation",
+          "team": "Ward 24 Sewer Line Team",
+          "priorityClass": "P2",
+          "slaHours": 12,
+          "confidence": 0.92,
+          "escalationChain": [
+            "Ward Team",
+            "Sewerage Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Sewerage & Sanitation was selected because the detected issue involves overflow from the underground sewer network.",
+          "timestamp": "2026-10-04T06:37:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T06:37:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T06:36:36.056889+00:00",
+          "actor": "Citizen #D711C",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T06:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Sewage Overflow · Priority 75 (HIGH)"
+        },
+        {
+          "time": "2026-10-04T06:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T06:37:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Sewerage & Sanitation → Ward 24 Sewer Line Team"
+        },
+        {
+          "time": "2026-10-04T06:38:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 24 Sewer Line Team · Status → ASSIGNED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10409",
+      "category": "drainage",
+      "categoryLabel": "Open / Clogged Drain",
+      "description": "Waterlogging due to clogged drain near the market, shops affected since yesterday.",
+      "severity": "medium",
+      "priority": 64,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 24,
+      "wardName": "Khajrana",
+      "location": "Khajrana Square, Ring Road",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Storm Water Drainage",
+      "team": "Ward 24 Drainage Team",
+      "status": "SUBMITTED",
+      "latitude": 22.733,
+      "longitude": 75.906,
+      "createdAt": "2026-10-04T07:21:36.056889+00:00",
+      "slaDueAt": "2026-10-06T07:21:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/drainage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #067B9",
+      "ai": {
+        "triage": {
+          "category": "drainage",
+          "categoryLabel": "Open / Clogged Drain",
+          "severity": "medium",
+          "priority": 64,
+          "confidence": 0.94,
+          "reason": "Visible drain blockage + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 24
+            },
+            {
+              "label": "Severity",
+              "points": 18
+            },
+            {
+              "label": "Duration",
+              "points": 12
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T07:22:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Storm Water Drainage",
+          "team": "Ward 24 Drainage Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.9,
+          "escalationChain": [
+            "Ward Team",
+            "Drainage Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Storm Water Drainage was selected because the detected issue involves a blocked or open storm water drain.",
+          "timestamp": "2026-10-04T07:22:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T07:22:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T07:21:36.056889+00:00",
+          "actor": "Citizen #067B9",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T07:22:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Open / Clogged Drain · Priority 64 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-04T07:22:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T07:22:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Storm Water Drainage → Ward 24 Drainage Team"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10415",
+      "category": "garbage",
+      "categoryLabel": "Garbage Overflow",
+      "description": "Food stall waste and litter piling up behind 56 Dukan, bins overflowing every evening.",
+      "severity": "medium",
+      "priority": 69,
+      "priorityClass": "P2",
+      "confidence": 0.94,
+      "ward": 5,
+      "wardName": "Palasia",
+      "location": "56 Dukan, New Palasia",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Solid Waste Management",
+      "team": "Ward 5 Sanitation Team",
+      "status": "SUBMITTED",
+      "latitude": 22.725,
+      "longitude": 75.8838,
+      "createdAt": "2026-10-04T07:36:36.056889+00:00",
+      "slaDueAt": "2026-10-04T19:36:36.056889+00:00",
+      "slaHours": 12,
+      "resolvedAt": null,
+      "image": "/images/garbage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #55EA5",
+      "ai": {
+        "triage": {
+          "category": "garbage",
+          "categoryLabel": "Garbage Overflow",
+          "severity": "medium",
+          "priority": 69,
+          "confidence": 0.94,
+          "reason": "Visible waste accumulation.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 30
+            },
+            {
+              "label": "Severity",
+              "points": 25
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 8
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T07:37:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Solid Waste Management",
+          "team": "Ward 5 Sanitation Team",
+          "priorityClass": "P2",
+          "slaHours": 12,
+          "confidence": 0.96,
+          "escalationChain": [
+            "Ward Team",
+            "Sanitation Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Solid Waste Management was selected because the detected issue involves accumulated municipal waste in a public area.",
+          "timestamp": "2026-10-04T07:37:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T07:37:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T07:36:36.056889+00:00",
+          "actor": "Citizen #55EA5",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T07:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Garbage Overflow · Priority 69 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-04T07:37:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T07:37:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Solid Waste Management → Ward 5 Sanitation Team"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10421",
+      "category": "pothole",
+      "categoryLabel": "Pothole",
+      "description": "Large pothole near the bus stand causing traffic jam during peak hours.",
+      "severity": "medium",
+      "priority": 54,
+      "priorityClass": "P3",
+      "confidence": 0.88,
+      "ward": 21,
+      "wardName": "Bhawarkuan",
+      "location": "Bhawarkuan to Navlakha Road",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Public Works — Roads",
+      "team": "Ward 21 Road Maintenance Crew",
+      "status": "ASSIGNED",
+      "latitude": 22.6922,
+      "longitude": 75.869,
+      "createdAt": "2026-10-04T01:26:36.056889+00:00",
+      "slaDueAt": "2026-10-06T01:26:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/pothole.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #98286",
+      "ai": {
+        "triage": {
+          "category": "pothole",
+          "categoryLabel": "Pothole",
+          "severity": "medium",
+          "priority": 54,
+          "confidence": 0.88,
+          "reason": "Visible road surface damage + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 18
+            },
+            {
+              "label": "Severity",
+              "points": 20
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T01:27:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Public Works — Roads",
+          "team": "Ward 21 Road Maintenance Crew",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.93,
+          "escalationChain": [
+            "Ward Team",
+            "Roads Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Public Works — Roads was selected because the detected issue involves damage to a municipal road surface.",
+          "timestamp": "2026-10-04T01:27:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T01:27:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T01:26:36.056889+00:00",
+          "actor": "Citizen #98286",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T01:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Pothole · Priority 54 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-04T01:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T01:27:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Public Works — Roads → Ward 21 Road Maintenance Crew"
+        },
+        {
+          "time": "2026-10-04T01:28:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 21 Road Maintenance Crew · Status → ASSIGNED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10428",
+      "category": "water",
+      "categoryLabel": "Water Leakage",
+      "description": "Water supply line leakage, low pressure in nearby houses for two days.",
+      "severity": "medium",
+      "priority": 62,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 24,
+      "wardName": "Khajrana",
+      "location": "Khajrana Main Road, near Masjid",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Water Supply Department",
+      "team": "Ward 24 Water Works Team",
+      "status": "RESOLVED",
+      "latitude": 22.7352,
+      "longitude": 75.9038,
+      "createdAt": "2026-10-03T15:26:36.056889+00:00",
+      "slaDueAt": "2026-10-05T15:26:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": "2026-10-04T06:26:36.056889+00:00",
+      "image": "/images/water.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #D643E",
+      "ai": {
+        "triage": {
+          "category": "water",
+          "categoryLabel": "Water Leakage",
+          "severity": "medium",
+          "priority": 62,
+          "confidence": 0.94,
+          "reason": "Visible water discharge.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 22
+            },
+            {
+              "label": "Severity",
+              "points": 20
+            },
+            {
+              "label": "Duration",
+              "points": 12
+            },
+            {
+              "label": "Location density",
+              "points": 8
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-03T15:27:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Water Supply Department",
+          "team": "Ward 24 Water Works Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.95,
+          "escalationChain": [
+            "Ward Team",
+            "Water Works Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Water Supply Department was selected because the detected issue involves leakage from the municipal water supply network.",
+          "timestamp": "2026-10-03T15:27:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-03T15:27:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-03T15:26:36.056889+00:00",
+          "actor": "Citizen #D643E",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-03T15:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Water Leakage · Priority 62 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-03T15:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-03T15:27:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Water Supply Department → Ward 24 Water Works Team"
+        },
+        {
+          "time": "2026-10-03T15:28:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 24 Water Works Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-03T22:06:36.056889+00:00",
+          "actor": "Ward 24 Water Works Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        },
+        {
+          "time": "2026-10-04T03:06:36.056889+00:00",
+          "actor": "Ward 24 Water Works Team",
+          "type": "officer",
+          "message": "Status → IN PROGRESS"
+        },
+        {
+          "time": "2026-10-04T06:26:36.056889+00:00",
+          "actor": "Ward 24 Water Works Team",
+          "type": "officer",
+          "message": "Status → RESOLVED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10433",
+      "category": "streetlight",
+      "categoryLabel": "Streetlight Outage",
+      "description": "Streetlight not working outside the coaching centres, students walk in the dark.",
+      "severity": "low",
+      "priority": 43,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 21,
+      "wardName": "Bhawarkuan",
+      "location": "Bhawarkuan, Tower Square lane",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Electrical & Street Lighting",
+      "team": "Ward 21 Electrical Team",
+      "status": "RESOLVED",
+      "latitude": 22.694,
+      "longitude": 75.8665,
+      "createdAt": "2026-10-03T07:06:36.056889+00:00",
+      "slaDueAt": "2026-10-05T07:06:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": "2026-10-04T05:36:36.056889+00:00",
+      "image": "/images/streetlight.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #DFA78",
+      "ai": {
+        "triage": {
+          "category": "streetlight",
+          "categoryLabel": "Streetlight Outage",
+          "severity": "low",
+          "priority": 43,
+          "confidence": 0.94,
+          "reason": "Non-functional lighting fixture.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 14
+            },
+            {
+              "label": "Severity",
+              "points": 15
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 8
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-03T07:07:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Electrical & Street Lighting",
+          "team": "Ward 21 Electrical Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.97,
+          "escalationChain": [
+            "Ward Team",
+            "Electrical Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Electrical & Street Lighting was selected because the detected issue involves a non-functional municipal street light.",
+          "timestamp": "2026-10-03T07:07:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-03T07:07:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-03T07:06:36.056889+00:00",
+          "actor": "Citizen #DFA78",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-03T07:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Streetlight Outage · Priority 43 (LOW)"
+        },
+        {
+          "time": "2026-10-03T07:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-03T07:07:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Electrical & Street Lighting → Ward 21 Electrical Team"
+        },
+        {
+          "time": "2026-10-03T07:08:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 21 Electrical Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-03T17:06:36.056889+00:00",
+          "actor": "Ward 21 Electrical Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        },
+        {
+          "time": "2026-10-04T00:36:36.056889+00:00",
+          "actor": "Ward 21 Electrical Team",
+          "type": "officer",
+          "message": "Status → IN PROGRESS"
+        },
+        {
+          "time": "2026-10-04T05:36:36.056889+00:00",
+          "actor": "Ward 21 Electrical Team",
+          "type": "officer",
+          "message": "Status → RESOLVED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10440",
+      "category": "drainage",
+      "categoryLabel": "Open / Clogged Drain",
+      "description": "Drain overflowing on the road after light rain, stagnant water near houses.",
+      "severity": "medium",
+      "priority": 63,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 12,
+      "wardName": "Sudama Nagar",
+      "location": "Sudama Nagar, Annapurna Road",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Storm Water Drainage",
+      "team": "Ward 12 Drainage Team",
+      "status": "IN_PROGRESS",
+      "latitude": 22.7,
+      "longitude": 75.8338,
+      "createdAt": "2026-10-03T23:26:36.056889+00:00",
+      "slaDueAt": "2026-10-05T23:26:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/drainage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #4CD20",
+      "ai": {
+        "triage": {
+          "category": "drainage",
+          "categoryLabel": "Open / Clogged Drain",
+          "severity": "medium",
+          "priority": 63,
+          "confidence": 0.94,
+          "reason": "Visible drain blockage.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 24
+            },
+            {
+              "label": "Severity",
+              "points": 25
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 8
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-03T23:27:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Storm Water Drainage",
+          "team": "Ward 12 Drainage Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.9,
+          "escalationChain": [
+            "Ward Team",
+            "Drainage Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Storm Water Drainage was selected because the detected issue involves a blocked or open storm water drain.",
+          "timestamp": "2026-10-03T23:27:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-03T23:27:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-03T23:26:36.056889+00:00",
+          "actor": "Citizen #4CD20",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-03T23:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Open / Clogged Drain · Priority 63 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-03T23:27:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-03T23:27:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Storm Water Drainage → Ward 12 Drainage Team"
+        },
+        {
+          "time": "2026-10-03T23:28:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 12 Drainage Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-04T02:54:36.056889+00:00",
+          "actor": "Ward 12 Drainage Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        },
+        {
+          "time": "2026-10-04T05:30:36.056889+00:00",
+          "actor": "Ward 12 Drainage Team",
+          "type": "officer",
+          "message": "Status → IN PROGRESS"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10446",
+      "category": "sewage",
+      "categoryLabel": "Sewage Overflow",
+      "description": "Manhole cover broken and sewage leaking near the school, children at risk.",
+      "severity": "high",
+      "priority": 75,
+      "priorityClass": "P2",
+      "confidence": 0.94,
+      "ward": 17,
+      "wardName": "Shivaji Nagar",
+      "location": "Shivaji Nagar, behind Govt. School",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Sewerage & Sanitation",
+      "team": "Ward 17 Sewer Line Team",
+      "status": "ASSIGNED",
+      "latitude": 22.7185,
+      "longitude": 75.8565,
+      "createdAt": "2026-10-04T06:56:36.056889+00:00",
+      "slaDueAt": "2026-10-04T18:56:36.056889+00:00",
+      "slaHours": 12,
+      "resolvedAt": null,
+      "image": "/images/sewage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #32C3D",
+      "ai": {
+        "triage": {
+          "category": "sewage",
+          "categoryLabel": "Sewage Overflow",
+          "severity": "high",
+          "priority": 75,
+          "confidence": 0.94,
+          "reason": "Visible wastewater overflow + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 30
+            },
+            {
+              "label": "Severity",
+              "points": 29
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T06:57:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Sewerage & Sanitation",
+          "team": "Ward 17 Sewer Line Team",
+          "priorityClass": "P2",
+          "slaHours": 12,
+          "confidence": 0.92,
+          "escalationChain": [
+            "Ward Team",
+            "Sewerage Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Sewerage & Sanitation was selected because the detected issue involves overflow from the underground sewer network.",
+          "timestamp": "2026-10-04T06:57:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T06:57:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T06:56:36.056889+00:00",
+          "actor": "Citizen #32C3D",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T06:57:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Sewage Overflow · Priority 75 (HIGH)"
+        },
+        {
+          "time": "2026-10-04T06:57:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T06:57:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Sewerage & Sanitation → Ward 17 Sewer Line Team"
+        },
+        {
+          "time": "2026-10-04T06:58:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 17 Sewer Line Team · Status → ASSIGNED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10452",
+      "category": "garbage",
+      "categoryLabel": "Garbage Overflow",
+      "description": "Vegetable market waste dumped on the road, cattle gathering and traffic blocked.",
+      "severity": "medium",
+      "priority": 64,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 24,
+      "wardName": "Khajrana",
+      "location": "Khajrana, near Vegetable Market",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Solid Waste Management",
+      "team": "Ward 24 Sanitation Team",
+      "status": "ASSIGNED",
+      "latitude": 22.7338,
+      "longitude": 75.9065,
+      "createdAt": "2026-10-04T03:46:36.056889+00:00",
+      "slaDueAt": "2026-10-06T03:46:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/garbage.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #CE5C5",
+      "ai": {
+        "triage": {
+          "category": "garbage",
+          "categoryLabel": "Garbage Overflow",
+          "severity": "medium",
+          "priority": 64,
+          "confidence": 0.94,
+          "reason": "Visible waste accumulation + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 30
+            },
+            {
+              "label": "Severity",
+              "points": 18
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T03:47:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Solid Waste Management",
+          "team": "Ward 24 Sanitation Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.96,
+          "escalationChain": [
+            "Ward Team",
+            "Sanitation Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Solid Waste Management was selected because the detected issue involves accumulated municipal waste in a public area.",
+          "timestamp": "2026-10-04T03:47:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T03:47:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T03:46:36.056889+00:00",
+          "actor": "Citizen #CE5C5",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T03:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Garbage Overflow · Priority 64 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-04T03:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T03:47:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Solid Waste Management → Ward 24 Sanitation Team"
+        },
+        {
+          "time": "2026-10-04T03:48:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 24 Sanitation Team · Status → ASSIGNED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10458",
+      "category": "pothole",
+      "categoryLabel": "Pothole",
+      "description": "Pothole filled with water on the service road, two-wheeler accident reported yesterday.",
+      "severity": "medium",
+      "priority": 64,
+      "priorityClass": "P3",
+      "confidence": 0.88,
+      "ward": 9,
+      "wardName": "Vijay Nagar",
+      "location": "Vijay Nagar, Scheme 54 PU4",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Public Works — Roads",
+      "team": "Ward 9 Road Maintenance Crew",
+      "status": "SUBMITTED",
+      "latitude": 22.752,
+      "longitude": 75.893,
+      "createdAt": "2026-10-04T07:46:36.056889+00:00",
+      "slaDueAt": "2026-10-06T07:46:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": null,
+      "image": "/images/pothole.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #02F4D",
+      "ai": {
+        "triage": {
+          "category": "pothole",
+          "categoryLabel": "Pothole",
+          "severity": "medium",
+          "priority": 64,
+          "confidence": 0.88,
+          "reason": "Visible road surface damage.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 18
+            },
+            {
+              "label": "Severity",
+              "points": 27
+            },
+            {
+              "label": "Duration",
+              "points": 12
+            },
+            {
+              "label": "Location density",
+              "points": 7
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-04T07:47:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Public Works — Roads",
+          "team": "Ward 9 Road Maintenance Crew",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.93,
+          "escalationChain": [
+            "Ward Team",
+            "Roads Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Public Works — Roads was selected because the detected issue involves damage to a municipal road surface.",
+          "timestamp": "2026-10-04T07:47:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-04T07:47:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-04T07:46:36.056889+00:00",
+          "actor": "Citizen #02F4D",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-04T07:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Pothole · Priority 64 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-04T07:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-04T07:47:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Public Works — Roads → Ward 9 Road Maintenance Crew"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10464",
+      "category": "water",
+      "categoryLabel": "Water Leakage",
+      "description": "Pipeline leak near the hospital, water wasting continuously.",
+      "severity": "medium",
+      "priority": 58,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 5,
+      "wardName": "Palasia",
+      "location": "Palasia, near Industry House",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Water Supply Department",
+      "team": "Ward 5 Water Works Team",
+      "status": "RESOLVED",
+      "latitude": 22.7236,
+      "longitude": 75.8818,
+      "createdAt": "2026-10-03T08:46:36.056889+00:00",
+      "slaDueAt": "2026-10-05T08:46:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": "2026-10-04T05:46:36.056889+00:00",
+      "image": "/images/water.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #8A0E7",
+      "ai": {
+        "triage": {
+          "category": "water",
+          "categoryLabel": "Water Leakage",
+          "severity": "medium",
+          "priority": 58,
+          "confidence": 0.94,
+          "reason": "Visible water discharge + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 22
+            },
+            {
+              "label": "Severity",
+              "points": 20
+            },
+            {
+              "label": "Duration",
+              "points": 6
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-03T08:47:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Water Supply Department",
+          "team": "Ward 5 Water Works Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.95,
+          "escalationChain": [
+            "Ward Team",
+            "Water Works Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Water Supply Department was selected because the detected issue involves leakage from the municipal water supply network.",
+          "timestamp": "2026-10-03T08:47:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-03T08:47:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-03T08:46:36.056889+00:00",
+          "actor": "Citizen #8A0E7",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-03T08:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Water Leakage · Priority 58 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-03T08:47:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-03T08:47:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Water Supply Department → Ward 5 Water Works Team"
+        },
+        {
+          "time": "2026-10-03T08:48:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 5 Water Works Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-03T18:06:36.056889+00:00",
+          "actor": "Ward 5 Water Works Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        },
+        {
+          "time": "2026-10-04T01:06:36.056889+00:00",
+          "actor": "Ward 5 Water Works Team",
+          "type": "officer",
+          "message": "Status → IN PROGRESS"
+        },
+        {
+          "time": "2026-10-04T05:46:36.056889+00:00",
+          "actor": "Ward 5 Water Works Team",
+          "type": "officer",
+          "message": "Status → RESOLVED"
+        }
+      ]
+    },
+    {
+      "ticketId": "SWC-2026-10470",
+      "category": "streetlight",
+      "categoryLabel": "Streetlight Outage",
+      "description": "Streetlight not working near the park since a week.",
+      "severity": "medium",
+      "priority": 59,
+      "priorityClass": "P3",
+      "confidence": 0.94,
+      "ward": 12,
+      "wardName": "Sudama Nagar",
+      "location": "Sudama Nagar, Sector E park",
+      "city": "Indore, Madhya Pradesh",
+      "department": "Electrical & Street Lighting",
+      "team": "Ward 12 Electrical Team",
+      "status": "RESOLVED",
+      "latitude": 22.6978,
+      "longitude": 75.8355,
+      "createdAt": "2026-10-02T06:06:36.056889+00:00",
+      "slaDueAt": "2026-10-04T06:06:36.056889+00:00",
+      "slaHours": 48,
+      "resolvedAt": "2026-10-04T03:06:36.056889+00:00",
+      "image": "/images/streetlight.jpg",
+      "hasVoice": false,
+      "citizenRef": "Citizen #73D30",
+      "ai": {
+        "triage": {
+          "category": "streetlight",
+          "categoryLabel": "Streetlight Outage",
+          "severity": "medium",
+          "priority": 59,
+          "confidence": 0.94,
+          "reason": "Non-functional lighting fixture + prolonged duration + public location.",
+          "factors": [
+            {
+              "label": "Public health risk",
+              "points": 14
+            },
+            {
+              "label": "Severity",
+              "points": 15
+            },
+            {
+              "label": "Duration",
+              "points": 20
+            },
+            {
+              "label": "Location density",
+              "points": 10
+            },
+            {
+              "label": "Nearby complaints",
+              "points": 0
+            }
+          ],
+          "imageAnalyzed": true,
+          "timestamp": "2026-10-02T06:07:36.056889+00:00"
+        },
+        "routing": {
+          "department": "Electrical & Street Lighting",
+          "team": "Ward 12 Electrical Team",
+          "priorityClass": "P3",
+          "slaHours": 48,
+          "confidence": 0.97,
+          "escalationChain": [
+            "Ward Team",
+            "Electrical Supervisor",
+            "Ward Officer",
+            "Command Center"
+          ],
+          "reason": "Electrical & Street Lighting was selected because the detected issue involves a non-functional municipal street light.",
+          "timestamp": "2026-10-02T06:07:36.056889+00:00"
+        },
+        "duplicates": {
+          "count": 0,
+          "similarity": 0,
+          "nearestDistance": null,
+          "matches": [],
+          "recommendation": "No duplicates found. Treat as a new civic incident.",
+          "timestamp": "2026-10-02T06:07:36.056889+00:00"
+        }
+      },
+      "officerDecision": null,
+      "escalationLevel": 0,
+      "feedback": null,
+      "audit": [
+        {
+          "time": "2026-10-02T06:06:36.056889+00:00",
+          "actor": "Citizen #73D30",
+          "type": "citizen",
+          "message": "Complaint submitted"
+        },
+        {
+          "time": "2026-10-02T06:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "AI recommended Streetlight Outage · Priority 59 (MEDIUM)"
+        },
+        {
+          "time": "2026-10-02T06:07:36.056889+00:00",
+          "actor": "Triage Agent",
+          "type": "ai",
+          "message": "Duplicate check: 0 similar complaint(s) within 300 m"
+        },
+        {
+          "time": "2026-10-02T06:07:36.056889+00:00",
+          "actor": "Routing Agent",
+          "type": "ai",
+          "message": "AI recommended Electrical & Street Lighting → Ward 12 Electrical Team"
+        },
+        {
+          "time": "2026-10-02T06:08:36.056889+00:00",
+          "actor": "System",
+          "type": "system",
+          "message": "Auto-assigned to Ward 12 Electrical Team · Status → ASSIGNED"
+        },
+        {
+          "time": "2026-10-03T02:06:36.056889+00:00",
+          "actor": "Ward 12 Electrical Team",
+          "type": "officer",
+          "message": "Inspection scheduled by field team"
+        },
+        {
+          "time": "2026-10-03T17:06:36.056889+00:00",
+          "actor": "Ward 12 Electrical Team",
+          "type": "officer",
+          "message": "Status → IN PROGRESS"
+        },
+        {
+          "time": "2026-10-04T03:06:36.056889+00:00",
+          "actor": "Ward 12 Electrical Team",
+          "type": "officer",
+          "message": "Status → RESOLVED"
+        }
+      ]
+    }
+  ]
+}
