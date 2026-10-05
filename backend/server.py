@@ -30,6 +30,10 @@ app = FastAPI(title="SwachhSetu 2.0 API (Prototype)")
 api = APIRouter(prefix="/api")
 STORE = {"complaints": {}, "counter": 10482, "seedIds": set(), "seedBreaches": 0}
 
+@app.get("/")
+def home():
+    return {"message": "Swachh Setu Backend is running"}
+
 
 def now_utc():
     return datetime.now(timezone.utc)
